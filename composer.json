@@ -1,0 +1,10 @@
+{
+    "name": "trusender/trusender-php",
+    "description": "Library for sending emails and event with TruSender's email platform",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "classmap": ["trusender.php"]
+    }
+}
