@@ -11,7 +11,7 @@ class Client {
     }
 
     public function send_email($template_name, $to_address, $data_mapping) {
-		$endpoint = "https://api.trusender.com/api/send_email";
+		$endpoint = "https://api.trusender.com/v1/sendEmail";
 
 		$request_data = array(
 			'auth_token' => $this->auth_token,
@@ -24,7 +24,7 @@ class Client {
 	}
 
 	public function send_event($event_name, $customer_email, $properties) {
-		$endpoint = "https://api.trusender.com/api/send_event";
+		$endpoint = "https://api.trusender.com/v1/sendEvent";
 
 		$request_data = array(
 			'auth_token' => $this->auth_token,
