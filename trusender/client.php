@@ -15,7 +15,7 @@ class Client {
 
 		$request_data = array(
 			'auth_token' => $this->auth_token,
-			'to_address' => $to_address,
+			'email' => $to_address,
 			'template_name' => $template_name,
 			"data_mapping" => $data_mapping
 		);
