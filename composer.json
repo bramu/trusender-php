@@ -2,7 +2,8 @@
     "name": "trusender/trusender-php",
     "description": "Library for sending emails and event with TruSender's email platform",
     "license": "Apache-2.0",
-    "minimum-stability": "*"
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "php": ">=5.3.0"
     },
